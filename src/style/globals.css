@@ -19,3 +19,8 @@
 .btn-orange {
   @apply bg-gradient-to-r from-orange to-yellow hover:opacity-70;
 }
+
+/* tag */
+.tag{
+  @apply bg-primary-800 py-[3px] px-5 text-white text-lg 
+}

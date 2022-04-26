@@ -8,12 +8,7 @@ export default {
 
 const Template: Story = (args) => <Tag {...args} />;
 
-export const Primary = Template.bind( {} );
-Primary.args = { children: <button className='btn btn-primary'>button</button>};
+export const Tag_lg = Template.bind( {} );
+Tag_lg.args = { children: <span className='tag'>Tag</span>};
 
-export const Orange = Template.bind( {} );
-Orange.args = { children: <button className='btn btn-orange'>button</button>};
-
-export const Btn = Template.bind( {} );
-Btn.args = { children: <button className='btn'>button</button>};
 
