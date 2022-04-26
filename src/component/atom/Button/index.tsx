@@ -1,1 +1,1 @@
-export const Button: React.FC = ({ children }) => <>{children}</> ;
+export const Button: React.FC = ({ children }) => <>{children}</>;

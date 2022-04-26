@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 /* highlight */
-.highlight{
-  @apply border-b-4 border-yellow text-primary-800
+.highlight {
+  @apply border-b-4 border-yellow text-primary-800;
 }
 
 /* button */
-.btn{
-  @apply rounded-[5px] px-[50px] py-5 text-2xl text-white hover:opacity-70 focus:outline-none
+.btn {
+  @apply rounded-[5px] px-[50px] py-5 text-2xl text-white hover:opacity-70 focus:outline-none;
 }
 
-.btn-primary{
-  @apply bg-gradient-to-r from-primary-800 to-primary-500
+.btn-primary {
+  @apply bg-gradient-to-r from-primary-800 to-primary-500;
 }
 
-.btn-orange{
-  @apply bg-gradient-to-r from-orange to-yellow hover:opacity-70
+.btn-orange {
+  @apply bg-gradient-to-r from-orange to-yellow hover:opacity-70;
 }
