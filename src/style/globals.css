@@ -2,102 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* text-primary */
-.text-primary-xs{
-  @apply text-primary-800 text-xs
-}
-
-.text-primary-sm{
-  @apply text-primary-800 text-sm
-}
-
-.text-primary-base{
-  @apply text-primary-800 text-base
-}
-
-.text-primary-lg{
-  @apply text-primary-800 text-lg
-}
-
-.text-primary-xl{
-  @apply text-primary-800 text-xl
-}
-
-.text-primary-2xl{
-  @apply text-primary-800 text-2xl
-}
-
 /* highlight */
-.highlight-xs{
-  @apply border-b-4 border-yellow text-xs
+.highlight{
+  @apply border-b-4 border-yellow text-primary-800
 }
 
-.highlight-sm{
-  @apply border-b-4 border-yellow text-sm
+/* button */
+.btn{
+  @apply rounded-[5px] px-[50px] py-5 text-2xl text-white hover:opacity-70 focus:outline-none
 }
 
-.highlight-base{
-  @apply border-b-4 border-yellow text-base
+.btn-primary{
+  @apply bg-gradient-to-r from-primary-800 to-primary-500
 }
 
-.highlight-lg{
-  @apply border-b-4 border-yellow text-lg
-}
-
-.highlight-xl{
-  @apply border-b-4 border-yellow text-xl
-}
-
-.highlight-2xl{
-  @apply border-b-4 border-yellow text-2xl
-}
-
-/* text-white */
-.text-white-xs{
-  @apply text-white text-xs
-}
-
-.text-white-sm{
-  @apply text-white text-sm
-}
-
-.text-white-base{
-  @apply text-white text-base
-}
-
-.text-white-lg{
-  @apply text-white text-lg
-}
-
-.text-white-xl{
-  @apply text-white text-xl
-}
-
-.text-white-2xl{
-  @apply text-white text-2xl
-}
-
-/* text-black */
-.text-black-xs{
-  @apply text-black text-xs
-}
-
-.text-black-sm{
-  @apply text-black text-sm
-}
-
-.text-black-base{
-  @apply text-black text-base
-}
-
-.text-black-lg{
-  @apply text-black text-lg
-}
-
-.text-black-xl{
-  @apply text-black text-xl
-}
-
-.text-black-2xl{
-  @apply text-black text-2xl
+.btn-orange{
+  @apply bg-gradient-to-r from-orange to-yellow hover:opacity-70
 }
