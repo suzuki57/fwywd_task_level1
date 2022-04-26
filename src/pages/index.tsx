@@ -8,7 +8,7 @@ import { Sympathy } from '../component/sympathy';
 
 const Home: React.FC = () => (
   <>
-  こんばんはie-i
+    <button className='btn-primary btn'>こんばんはie-i</button>
     <PageHeader />
     <Hero />
     <Sympathy />
