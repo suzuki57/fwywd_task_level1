@@ -1,0 +1,1 @@
+export const Buttom: React.FC = ({ children }) => <>{children}</> ;
