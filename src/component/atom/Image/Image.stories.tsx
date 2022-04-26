@@ -15,7 +15,7 @@ export default {
   component: Image,
 } as ComponentMeta<typeof Image>;
 
-const Template: Story<ImageProps> = (args) => <Image {...args} />;
+const Template: Story<ImageProps> = (args) => <Image {...args} alt=""/>;
 
 export const Benefit = Template.bind( {} );
 Benefit.args = { src:benefitImage, alt:'benefit image'};
