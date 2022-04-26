@@ -1,13 +1,14 @@
-import { Benefit } from '../components/benefit';
-import { CTA } from '../components/cta';
-import { Hero } from '../components/hero';
-import { PageFooter } from '../components/pagefooter';
-import { PageHeader } from '../components/pageheader';
-import { Pricing } from '../components/pricing';
-import { Sympathy } from '../components/sympathy';
+import { Benefit } from '../component/benefit';
+import { CTA } from '../component/cta';
+import { Hero } from '../component/hero';
+import { PageFooter } from '../component/pagefooter';
+import { PageHeader } from '../component/pageheader';
+import { Pricing } from '../component/pricing';
+import { Sympathy } from '../component/sympathy';
 
 const Home: React.FC = () => (
   <>
+  こんばんはie-i
     <PageHeader />
     <Hero />
     <Sympathy />
